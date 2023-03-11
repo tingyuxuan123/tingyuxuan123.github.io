@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS基础使用 | 路远のblog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="就在尘埃落定前奋力一搏">
+    <meta name="keywords" content="编程,vuepress,自建博客,路远,面试题,总结">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="路远">
+    
+    <link rel="preload" href="/assets/css/0.styles.1be57b2a.css" as="style"><link rel="preload" href="/assets/js/app.f7064e2f.js" as="script"><link rel="preload" href="/assets/js/4.bf546a5d.js" as="script"><link rel="preload" href="/assets/js/1.1ea4bb84.js" as="script"><link rel="preload" href="/assets/js/13.4d4e1d89.js" as="script"><link rel="preload" href="/assets/js/10.acd4da03.js" as="script"><link rel="prefetch" href="/assets/js/11.659096ca.js"><link rel="prefetch" href="/assets/js/12.832e6d23.js"><link rel="prefetch" href="/assets/js/14.5063191e.js"><link rel="prefetch" href="/assets/js/15.d28681c0.js"><link rel="prefetch" href="/assets/js/16.bb7bb0dd.js"><link rel="prefetch" href="/assets/js/17.2264dbac.js"><link rel="prefetch" href="/assets/js/18.178ce701.js"><link rel="prefetch" href="/assets/js/19.6abfa94b.js"><link rel="prefetch" href="/assets/js/20.0ad3ec7a.js"><link rel="prefetch" href="/assets/js/21.8e2875fa.js"><link rel="prefetch" href="/assets/js/22.f5f14c1a.js"><link rel="prefetch" href="/assets/js/23.44c3de21.js"><link rel="prefetch" href="/assets/js/24.4f84471b.js"><link rel="prefetch" href="/assets/js/25.9398eeb5.js"><link rel="prefetch" href="/assets/js/26.e39f48c2.js"><link rel="prefetch" href="/assets/js/27.bbdd6108.js"><link rel="prefetch" href="/assets/js/28.430af97d.js"><link rel="prefetch" href="/assets/js/29.a65819ef.js"><link rel="prefetch" href="/assets/js/5.306ca5d4.js"><link rel="prefetch" href="/assets/js/6.df5be34a.js"><link rel="prefetch" href="/assets/js/7.2f1f818d.js"><link rel="prefetch" href="/assets/js/8.50dd0613.js"><link rel="prefetch" href="/assets/js/9.4082b90d.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.a62600c5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1be57b2a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container" data-v-4698c43e><div data-v-4698c43e><div id="loader-wrapper" class="loading-wrapper" data-v-1c4f0192 data-v-4698c43e data-v-4698c43e><div class="loader-main" data-v-1c4f0192><div data-v-1c4f0192></div><div data-v-1c4f0192></div><div data-v-1c4f0192></div><div data-v-1c4f0192></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-6cbeab0a data-v-4698c43e data-v-4698c43e><h3 class="title" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a>路远のblog</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a><input type="password" value="" data-v-6cbeab0a> <span data-v-6cbeab0a>Konck! Knock!</span> <button data-v-6cbeab0a>OK</button></label> <div class="footer" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a><span data-v-6cbeab0a><i class="iconfont reco-theme" data-v-6cbeab0a></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-6cbeab0a>vuePress-theme-reco</a></span> <span data-v-6cbeab0a><i class="iconfont reco-copyright" data-v-6cbeab0a></i> <a data-v-6cbeab0a><span data-v-6cbeab0a>路远</span>
+            
+          <span data-v-6cbeab0a>2023 - </span>
+          2023
+        </a></span></div></div> <div class="hide" data-v-4698c43e><header class="navbar" data-v-4698c43e><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">路远のblog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-eye"></i>
+      个人笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/个人笔记/HTML笔记/HTML基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/CSS笔记/CSS基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/JavaScript笔记/JavaScript基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/Vue笔记/Vue2基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/React笔记/react-hooks基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/MySQL笔记/MySQL基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/TypeScript笔记/TypeScript基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/Git笔记/Git基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-suggestion"></i>
+      面试指南
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/面试指南/HTML面试题/html语义化的理解.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/CSS面试题/常见的水平垂直居中实现方案.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/JavaScript面试题/JS的基本数据类型有哪些？基本数据类型和引用数据类型的区别.html" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/Vue面试题/父子组件声明周期.html" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/React面试题/React事件机制.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      个人项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="http://yfdl.site:5173" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-vue"></i>
+  飞鸟社区
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/关于/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/tingyuxuan123" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-4698c43e></div> <aside class="sidebar" data-v-4698c43e><div class="personal-info-wrapper" data-v-6c8ffc9c><img src="/avatar.png" alt="author-avatar" class="personal-img" data-v-6c8ffc9c> <h3 class="name" data-v-6c8ffc9c>
+    路远
+  </h3> <div class="num" data-v-6c8ffc9c><div data-v-6c8ffc9c><h3 data-v-6c8ffc9c>16</h3> <h6 data-v-6c8ffc9c>文章</h6></div> <div data-v-6c8ffc9c><h3 data-v-6c8ffc9c>8</h3> <h6 data-v-6c8ffc9c>标签</h6></div></div> <hr data-v-6c8ffc9c></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-eye"></i>
+      个人笔记
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/个人笔记/HTML笔记/HTML基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/CSS笔记/CSS基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/JavaScript笔记/JavaScript基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/Vue笔记/Vue2基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/React笔记/react-hooks基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/MySQL笔记/MySQL基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/TypeScript笔记/TypeScript基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/个人笔记/Git笔记/Git基础使用.html" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-suggestion"></i>
+      面试指南
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/面试指南/HTML面试题/html语义化的理解.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/CSS面试题/常见的水平垂直居中实现方案.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/JavaScript面试题/JS的基本数据类型有哪些？基本数据类型和引用数据类型的区别.html" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/Vue面试题/父子组件声明周期.html" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/面试指南/React面试题/React事件机制.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      个人项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="http://yfdl.site:5173" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-vue"></i>
+  飞鸟社区
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/关于/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/tingyuxuan123" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CSS笔记</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/个人笔记/CSS笔记/CSS基础使用.html" class="active sidebar-link">CSS基础使用</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-6cbeab0a data-v-4698c43e><h3 class="title" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a>CSS基础使用</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a><input type="password" value="" data-v-6cbeab0a> <span data-v-6cbeab0a>Konck! Knock!</span> <button data-v-6cbeab0a>OK</button></label> <div class="footer" style="display:none;" data-v-6cbeab0a data-v-6cbeab0a><span data-v-6cbeab0a><i class="iconfont reco-theme" data-v-6cbeab0a></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-6cbeab0a>vuePress-theme-reco</a></span> <span data-v-6cbeab0a><i class="iconfont reco-copyright" data-v-6cbeab0a></i> <a data-v-6cbeab0a><span data-v-6cbeab0a>路远</span>
+            
+          <span data-v-6cbeab0a>2023 - </span>
+          2023
+        </a></span></div></div> <div data-v-4698c43e><main class="page"><!----> <div class="page-title" style="display:none;"><h1>CSS基础使用</h1> <hr> <div data-v-484a899e><i class="iconfont reco-account" data-v-484a899e><span data-v-484a899e>路远</span></i> <i class="iconfont reco-date" data-v-484a899e><span data-v-484a899e>2023-03-11</span></i> <!----> <i class="iconfont reco-tag tags" data-v-484a899e><span class="tag-item" data-v-484a899e>
+      css
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><div class="language-css line-numbers-mode"><pre class="language-css"><code>
+<span class="token selector"># 选择器
+
+1. 基础选择器：由单个选择器组成的
+
+2. 复合选择器
+
+   1. 标签选择器
+   2. 类选择器
+   3. id 选择器
+   4. 通配符选择器
+
+3. 伪类选择器：
+
+   |   选择器类型    | 简介                                             |
+   | :-------------: | ------------------------------------------------ |
+   |     ：link      | 没访问过的连接                                   |
+   |    ：visited    | 访问过的连接                                     |
+   |     ：hover     | 鼠标在连接上                                     |
+   |    ：active     | 鼠标按下没弹起的时候                             |
+   |     ：focus     | 获取焦点的表单元素                               |
+   |  ：placeholder  | 设置 placeholder                                 |
+   |  ：first-child  | 匹配父元素的第一个子元素 E                       |
+   |   :last-child   | 比配父元素中最后一个 E 元素                      |
+   | :nth-child（n） | 匹配父元素中的第 n 个子元素 E even 偶数 odd 基数 |
+   |  first-of-type  | 指定类型 E 的第一个                              |
+   |  last-of-type   | 指定类型 E 的最后一个                            |
+   | nth-of-type(n)  | 指定类型 E 的第 n 个                             |
+   |                 |                                                  |
+   |                 |                                                  |
+
+   |   选择器类型   | 简介                         |
+   | :------------: | ---------------------------- |
+   |   标签选择器   | 把某一类标签全部选择出来     |
+   |    类选择器    | 用 class 属性来调用 .red</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token selector">|
+   |   id 选择器    | 用 id 属性来调用 #a</span><span class="token punctuation">{</span><span class="token punctuation">}</span>        <span class="token selector">|
+   |  多类名选择器  | .red , .green</span><span class="token punctuation">{</span><span class="token punctuation">}</span>              <span class="token selector">|
+   |      '\*'      | 通配符选择器                 |
+   | 相邻兄弟选择器 | +                            |
+   |    子选择器    | &gt;                            |
+   |   兄弟选择器   | ~                            |
+   |                |                              |
+
+   属性选择器
+
+|    选择器类型    | 简介                                          |
+| :--------------: | --------------------------------------------- |
+|     'E[att]'     | 选择具有 att 属性的 E 元素                    |
+|  'E[att=&quot;val&quot;]'  | 选择具有 att 属性且属性值等于 val 的 E 元素   |
+| 'E[att^=&quot;val&quot;] ' | 选择具有 att 属性且属性值以 val 开头的 E 元素 |
+| ' E[att$=&quot;val&quot;]' | 选择具有 att 属性且属性值以 val 结尾的 E 元素 |
+| 'E[att*=&quot;val&quot;]'  | 选择具有 att 属性且属性值包含 val 的 E 元素   |
+
+微元素选择器
+
+| 选择器类型 | 简介                     |
+| :--------: | :----------------------- |
+|  ::before  | 在元素内部的前面插入内容 |
+|  ::after   | 在元素内部的后面插入内容 |
+|            |                          |
+
+# 字体属性
+
+| 字体设置    | 简介                                                  |
+| ----------- | ----------------------------------------------------- |
+| font-family | 设置文字字体                                          |
+| font-size   | 设置文字大小                                          |
+| font-weight | 设置文字粗细 bold 加粗 400 等于 normal 700 等于 bold  |
+| font-style  | 文字样式 italic 倾斜 normal 默认                      |
+| font：      | 复合样式 font-style font-weight font-size font-family |
+
+# 文本属性
+
+| 文本属性        | 文本简介                                |
+| --------------- | --------------------------------------- |
+| color           | 设置文本颜色 可以使用二进制、rgb、rgba  |
+| text-align      | 设备水平对齐 left、center、right        |
+| text-decoration | none、underline、overline、line-through |
+| text-indent     | 首行缩进 em 当前文字的文字大小          |
+| line-height     | 设置行高                                |
+
+# CSS 的三种样式表
+
+1. 行内样式表
+
+   1. ```html
+      &lt;div style=&quot;color: red; font-size: 12px;&quot;&gt;青春不常在，抓紧谈恋爱&lt;/div&gt;
+      ```
+
+2. 内部样式表
+
+   1. ```css
+      &lt;style&gt;
+       div</span> <span class="token punctuation">{</span>
+       <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+       <span class="token property">font-size</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+      &lt;/style&gt;
+      ```
+
+3. 外部样式表
+
+   1. ````html
+           &lt;link rel=<span class="token string">&quot;stylesheet&quot;</span> href=<span class="token string">&quot;css文件路径&quot;</span> /&gt;
+           ```
+      &lt;!--
+      ````
+
+# 块元素
+
+<span class="token string">'常见的块元素有&lt;h1&gt;~&lt;h6&gt;、&lt;p&gt;、&lt;div&gt;、&lt;ul&gt;、&lt;ol&gt;、&lt;li&gt;等，其中 &lt;div&gt; 标签是最典型的块元素。'</span>
+
+1. 比较霸道，自己独占一行。
+2. 高度，宽度、外边距以及内边距都可以控制
+3. 宽度默认是容器（父级宽度）的 100%。
+4. 是一个容器及盒子，里面可以放行内或者块级元素。
+
+注意：
+
+1. 文字类的元素内不能使用块级元素
+2. p 标签主要用于存放文字，因此 p 里面不能放块级元素，特别是不能放 div
+3. 同理， <span class="token string">'&lt;h1&gt;~&lt;h6&gt;'</span>等都是文字类块级标签，里面也不能放其他块级元素
+
+# 行内元素
+
+常见的行内元素有 <span class="token string">'&lt;a&gt;、&lt;strong&gt;、&lt;b&gt;、&lt;em&gt;、&lt;i&gt;、&lt;del&gt;、&lt;s&gt;、&lt;ins&gt;、&lt;u&gt;、&lt;span&gt;'</span>等，其中
+
+<span class="token string">'&lt;span&gt; '</span>标签是最典型的行内元素。有的地方也将行内元素称为内联元素。
+
+1. 相邻行内元素在一行上，一行可以显示多个。
+2. 高、宽直接设置是无效的。
+3. 默认宽度就是它本身内容的宽度。
+4. 行内元素只能容纳文本或其他行内元素。
+
+<span class="token property">注意</span><span class="token punctuation">:</span>
+
+1. 链接里面不能再放链接
+2. 特殊情况链接<span class="token string">' &lt;a&gt;'</span> 里面可以放块级元素，但是给 <span class="token string">'&lt;a&gt;'</span> 转换一下块级模式最安全
+
+# 行内块元素
+
+在行内元素中有几个特殊的标签 —— <span class="token string">'&lt;img /&gt;、&lt;input /&gt;、&lt;td&gt;'</span>，它们同时具有块元素和行内元素的特点。
+
+1. 和相邻行内元素（行内块）在一行上，但是他们之间会有空白缝隙。一行可以显示多个（行内元素特点）。
+2. 默认宽度就是它本身内容的宽度（行内元素特点）。
+
+# display
+
+1. <span class="token property">display</span><span class="token punctuation">:</span>block 转换为块元素
+2. <span class="token property">display</span><span class="token punctuation">:</span>inline 转换为行内元素
+3. <span class="token property">display</span><span class="token punctuation">:</span>inline-block 转换为行内块
+4. display：none 隐藏对象
+
+# 背景 background
+
+| 属性                  | 作用             | 值                                                 |
+| <span class="token punctuation">:</span>-------------------- | <span class="token punctuation">:</span>--------------- | -------------------------------------------------- |
+| background-color      | 背景颜色         | 预定义颜色值/十六进制/ GBG 代码                    |
+| background-image      | 背景图片         | url（图片路径）                                    |
+| background-repeat     | 是否平铺         | repeat/ no-repeat/repeat-x/repeat-y                |
+| background-position   | 背景位置         | length/postion                                     |
+| background-attachment | 背景 附着        | <span class="token function">scroll</span><span class="token punctuation">(</span>背景滚动<span class="token punctuation">)</span> /fixed <span class="token punctuation">(</span>背景固定<span class="token punctuation">)</span>                 |
+| background            | 书写更简单       | 背景颜色 背景图片地址 背景平铺 背景滚动 背景位置。 |
+| 背景色半透明          | 背景颜色半透明   | background：rgba（0<span class="token punctuation">,</span>0<span class="token punctuation">,</span>0<span class="token punctuation">,</span>0.3）                      |
+| background-size       | 设置背景图片大小 | 长度\|百分比\|cover\|contain                       |
+
+<span class="token property">background</span><span class="token punctuation">:</span> transparent <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>image.jpg<span class="token punctuation">)</span></span> repeat-y fixed top <span class="token punctuation">;</span>
+
+# 边框 border
+
+| 属性            | 作用                                                                                    |
+| <span class="token punctuation">:</span>-------------- | <span class="token punctuation">:</span>-------------------------------------------------------------------------------------- |
+| border-width    | 定义边框粗细，单位是 px                                                                 |
+| border-style    | 边框的样式 none 无/solid 实线/dashed 虚线/dotted 点线                                   |
+| border-color    | 边框的颜色                                                                              |
+| border          | <span class="token property">border</span> <span class="token punctuation">:</span> border-width \|\| border-style \|\| border-color                               |
+| border-radius   | 边框圆角 border-top-left-radius、border-top-right-radius、border-bottom-right-radius 和 |
+| border-collapse | collapse 表格边框的间距折叠                                                             |
+|                 |                                                                                         |
+
+# 盒子阴影 box-shadow
+
+<span class="token property">box-shadow</span><span class="token punctuation">:</span> h-shadow v-shadow blur spread color inset
+
+| 值       | 描述                                   |
+| <span class="token punctuation">:</span>------- | <span class="token punctuation">:</span>------------------------------------- |
+| h-shadow | 必需，水平阴影的位置                   |
+| v-shadow | 必需，垂直阴影的位置                   |
+| blur     | 可选，模糊距离                         |
+| spread   | 可选，阴影的尺寸                       |
+| color    | 可选，阴影的颜色，请参阅 CSS 颜色值    |
+| inset    | 可选，将外部阴影（outset）改为内部阴影 |
+
+好看的阴影
+
+1.  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 15px 15px 10px <span class="token function">rgba</span><span class="token punctuation">(</span>33<span class="token punctuation">,</span>45<span class="token punctuation">,</span>58<span class="token punctuation">,</span>.3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token selector">2.
+
+# 文字阴影 text-shadow
+
+text-shadow: h-shadow v-shadow blur color
+
+| 值       | 描述                                |
+| :------- | :---------------------------------- |
+| h-shadow | 必需，水平阴影的位置                |
+| v-shadow | 必需，垂直阴影的位置                |
+| blur     | 可选，模糊距离                      |
+| color    | 可选，阴影的颜色，请参阅 CSS 颜色值 |
+
+# padding
+
+| 属性           | 作用     |
+| :------------- | :------- |
+| padding-left   | 左内边距 |
+| padding-right  | 右内边距 |
+| padding-top    | 上内边距 |
+| padding-bottom | 下内边距 |
+
+| 值的个数                    | 表达意思                                      |
+| :-------------------------- | :-------------------------------------------- |
+| padding：5px                | 上下左右都为 5                                |
+| padding：5px 10px           | 上下为 5 像素，左右内边距是 10 像素           |
+| padding：5px 10px 20px      | 上边距为 5，左右为 10，下边距为 20            |
+| padding：5px 10px 20px 30px | 上是 5 像素，右是 10，下是 20，左是 30 顺时针 |
+
+# margin
+
+| 属性          | 作用     |
+| :------------ | :------- |
+| margin-left   | 左外边距 |
+| margin-right  | 右外边距 |
+| margin-top    | 上外边距 |
+| margin-bottom | 下外边距 |
+
+| 值的个数                   | 表达意思                                      |
+| :------------------------- | :-------------------------------------------- |
+| margin：5px                | 上下左右都为 5                                |
+| margin：5px 10px           | 上下为 5 像素，左右内边距是 10 像素           |
+| margin：5px 10px 20px      | 上边距为 5，左右为 10，下边距为 20            |
+| margin：5px 10px 20px 30px | 上是 5 像素，右是 10，下是 20，左是 30 顺时针 |
+
+# float 浮动
+
+| 属性  | 描述         |
+| :---- | :----------- |
+| none  | 元素不浮动   |
+| left  | 元素向左浮动 |
+| right | 元素向右浮动 |
+
+# 清除浮动
+
+clear
+
+| 属性值 | 描述     |
+| :----- | :------- |
+| left   | 清除左   |
+| right  | 清除右   |
+| both   | 清除两边 |
+
+1. **额外标签法**也称为隔墙法，是 W3C 推荐的做法。
+
+2. 父级添加 overflow 属性
+
+3. 父级添加 after 伪元素
+
+4. 父级添加双伪元素
+
+```css
+.clearfix:after</span> <span class="token punctuation">{</span>
+  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+  <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.clearfix</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* IE6、7 专有 */</span>
+  *<span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br><span class="line-number">194</span><br><span class="line-number">195</span><br><span class="line-number">196</span><br><span class="line-number">197</span><br><span class="line-number">198</span><br><span class="line-number">199</span><br><span class="line-number">200</span><br><span class="line-number">201</span><br><span class="line-number">202</span><br><span class="line-number">203</span><br><span class="line-number">204</span><br><span class="line-number">205</span><br><span class="line-number">206</span><br><span class="line-number">207</span><br><span class="line-number">208</span><br><span class="line-number">209</span><br><span class="line-number">210</span><br><span class="line-number">211</span><br><span class="line-number">212</span><br><span class="line-number">213</span><br><span class="line-number">214</span><br><span class="line-number">215</span><br><span class="line-number">216</span><br><span class="line-number">217</span><br><span class="line-number">218</span><br><span class="line-number">219</span><br><span class="line-number">220</span><br><span class="line-number">221</span><br><span class="line-number">222</span><br><span class="line-number">223</span><br><span class="line-number">224</span><br><span class="line-number">225</span><br><span class="line-number">226</span><br><span class="line-number">227</span><br><span class="line-number">228</span><br><span class="line-number">229</span><br><span class="line-number">230</span><br><span class="line-number">231</span><br><span class="line-number">232</span><br><span class="line-number">233</span><br><span class="line-number">234</span><br><span class="line-number">235</span><br><span class="line-number">236</span><br><span class="line-number">237</span><br><span class="line-number">238</span><br><span class="line-number">239</span><br><span class="line-number">240</span><br><span class="line-number">241</span><br><span class="line-number">242</span><br><span class="line-number">243</span><br><span class="line-number">244</span><br><span class="line-number">245</span><br><span class="line-number">246</span><br><span class="line-number">247</span><br><span class="line-number">248</span><br><span class="line-number">249</span><br><span class="line-number">250</span><br><span class="line-number">251</span><br><span class="line-number">252</span><br><span class="line-number">253</span><br><span class="line-number">254</span><br><span class="line-number">255</span><br><span class="line-number">256</span><br><span class="line-number">257</span><br><span class="line-number">258</span><br><span class="line-number">259</span><br><span class="line-number">260</span><br><span class="line-number">261</span><br><span class="line-number">262</span><br><span class="line-number">263</span><br><span class="line-number">264</span><br><span class="line-number">265</span><br><span class="line-number">266</span><br><span class="line-number">267</span><br><span class="line-number">268</span><br><span class="line-number">269</span><br><span class="line-number">270</span><br><span class="line-number">271</span><br><span class="line-number">272</span><br><span class="line-number">273</span><br><span class="line-number">274</span><br><span class="line-number">275</span><br><span class="line-number">276</span><br><span class="line-number">277</span><br><span class="line-number">278</span><br><span class="line-number">279</span><br></div></div><div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.clearfix:before,
+.clearfix:after</span> <span class="token punctuation">{</span>
+  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.clearfix:after</span> <span class="token punctuation">{</span>
+  <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.clearfix</span> <span class="token punctuation">{</span>
+  *<span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h1 id="定位-position"><a href="#定位-position" class="header-anchor">#</a> 定位 position</h1> <table><thead><tr><th style="text-align:left;">值</th> <th style="text-align:left;">语义</th></tr></thead> <tbody><tr><td style="text-align:left;">static</td> <td style="text-align:left;">静态定位</td></tr> <tr><td style="text-align:left;">relative</td> <td style="text-align:left;">相对定位</td></tr> <tr><td style="text-align:left;">absolute</td> <td style="text-align:left;">绝对定位</td></tr> <tr><td style="text-align:left;">fixed</td> <td style="text-align:left;">固定定位</td></tr> <tr><td style="text-align:left;">sticky</td> <td style="text-align:left;">粘性定位</td></tr></tbody></table> <ol><li>top</li> <li>bottom</li> <li>left</li> <li>right</li> <li>z-index 控制显示的前后次序</li></ol> <h1 id="visibility-可见性"><a href="#visibility-可见性" class="header-anchor">#</a> visibility 可见性</h1> <ol><li>visibility ：visible 元素可视</li> <li>visibility ：hidden 元素隐藏</li></ol> <h1 id="overflow-溢出"><a href="#overflow-溢出" class="header-anchor">#</a> overflow 溢出</h1> <table><thead><tr><th style="text-align:left;">属性值</th> <th style="text-align:left;">描述</th></tr></thead> <tbody><tr><td style="text-align:left;">visible</td> <td style="text-align:left;">不剪切内容也不添加滚动条</td></tr> <tr><td style="text-align:left;">hidden</td> <td style="text-align:left;">不显示超过对象尺寸的内容，超出的部分隐藏掉</td></tr> <tr><td style="text-align:left;">scroll</td> <td style="text-align:left;">不管超出内容是否，总是显示滚动条</td></tr> <tr><td style="text-align:left;">auto</td> <td style="text-align:left;">超出自动显示滚动条，不超出不显示滚动条</td></tr></tbody></table> <ol><li><p>display 显示隐藏元素 但是不保留位置</p></li> <li><p>visibility 显示隐藏元素 但是保留原来的位置</p></li> <li><p>overflow 溢出显示隐藏 但是只是对于溢出的部分处理</p></li></ol> <h1 id="鼠标样式-cursor"><a href="#鼠标样式-cursor" class="header-anchor">#</a> 鼠标样式 cursor</h1> <table><thead><tr><th style="text-align:left;">属性值</th> <th style="text-align:left;">描述</th></tr></thead> <tbody><tr><td style="text-align:left;">default</td> <td style="text-align:left;">小白</td></tr> <tr><td style="text-align:left;">pointer</td> <td style="text-align:left;">小手</td></tr> <tr><td style="text-align:left;">move</td> <td style="text-align:left;">移动</td></tr> <tr><td style="text-align:left;">text</td> <td style="text-align:left;">文本</td></tr> <tr><td style="text-align:left;">not-allowed</td> <td style="text-align:left;">禁止</td></tr></tbody></table> <h1 id="禁止元素的文子被选中"><a href="#禁止元素的文子被选中" class="header-anchor">#</a> 禁止元素的文子被选中</h1> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token property">-moz-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token property">-wekit-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token property">-ms-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h1 id="轮廓线"><a href="#轮廓线" class="header-anchor">#</a> 轮廓线</h1> <ol><li>outline ：none</li></ol> <h1 id="防止拖拽文本域"><a href="#防止拖拽文本域" class="header-anchor">#</a> 防止拖拽文本域</h1> <ol><li>resize：none</li></ol> <h1 id="vertical-align-属性应用"><a href="#vertical-align-属性应用" class="header-anchor">#</a> vertical-align 属性应用</h1> <p>用于图片文字对齐</p> <table><thead><tr><th style="text-align:left;">属性值</th> <th style="text-align:left;">描述</th></tr></thead> <tbody><tr><td style="text-align:left;">baseline</td> <td style="text-align:left;">默认。元素放置在元素的基础线上</td></tr> <tr><td style="text-align:left;">top</td> <td style="text-align:left;">把元素的顶端与行中最高元素的顶端对齐</td></tr> <tr><td style="text-align:left;">middle</td> <td style="text-align:left;">把次元素放置在父元素的中部</td></tr> <tr><td style="text-align:left;">bottom</td> <td style="text-align:left;">把元素的顶端与行中最低的元素的顶端对齐</td></tr></tbody></table> <h1 id="溢出的文字省略号显示"><a href="#溢出的文字省略号显示" class="header-anchor">#</a> <strong>溢出的文字省略号显示</strong></h1> <p>单行</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token comment">/*1. 先强制一行内显示文本*/</span>
+ <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span> （ 默认 normal 自动换行）
+ <span class="token comment">/*2. 超出的部分隐藏*/</span>
+ <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+ <span class="token comment">/*3. 文字用省略号替代超出的部分*/</span>
+ <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>多行</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+<span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+<span class="token comment">/* 弹性伸缩盒子模型显示 */</span>
+<span class="token property">display</span><span class="token punctuation">:</span> -webkit-box<span class="token punctuation">;</span>
+<span class="token comment">/* 限制在一个块元素显示的文本的行数 */</span>
+<span class="token property">-webkit-line-clamp</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+<span class="token comment">/* 设置或检索伸缩盒对象的子元素的排列方式 */</span>
+<span class="token property">-webkit-box-orient</span><span class="token punctuation">:</span> vertical<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h1 id="box-sizing"><a href="#box-sizing" class="header-anchor">#</a> box-sizing</h1> <ol><li><p>box-sizing: content-box 盒子大小为 width + padding + border （以前默认的）</p></li> <li><p>box-sizing: border-box 盒子大小为 width</p></li></ol> <h1 id="计算盒子高度-calc"><a href="#计算盒子高度-calc" class="header-anchor">#</a> 计算盒子高度 calc</h1> <ol><li>width: calc() ；</li></ol> <h1 id="滤镜-filter"><a href="#滤镜-filter" class="header-anchor">#</a> 滤镜 filter</h1> <ol><li>filter: blur()</li></ol> <h1 id="过渡动画-transition"><a href="#过渡动画-transition" class="header-anchor">#</a> 过渡动画 transition</h1> <ol><li><p>transition: 要过渡的属性 花费时间 运动曲线 何时开始;</p> <ol><li>linear 匀速</li> <li>ease 逐渐慢下来</li> <li>ease-in 加速</li> <li>ease-out 减速</li> <li>ease-in-out 先加速后减速</li></ol></li></ol> <h1 id="转换-transform"><a href="#转换-transform" class="header-anchor">#</a> 转换 transform</h1> <ol><li>transform : translate(x,y); 移动</li> <li>transform : rotate(x deg); 旋转</li> <li>transform-origin ： top left 改变旋转的 中心点</li> <li>transform ： scale（x,y） 放大缩小</li> <li>transform-style ：preserve-3d 设置保持 3d 效果</li></ol> <h1 id="_3d-透视-perspective"><a href="#_3d-透视-perspective" class="header-anchor">#</a> 3D 透视 perspective</h1> <h1 id="动画"><a href="#动画" class="header-anchor">#</a> 动画</h1> <div class="language-css line-numbers-mode"><pre class="language-css"><code>//定义动画
+<span class="token atrule"><span class="token rule">@keyframes</span> 动画名</span><span class="token punctuation">{</span>
+    <span class="token selector">0%</span><span class="token punctuation">{</span>//from
+        <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">100%</span><span class="token punctuation">{</span>//to
+        <span class="token property">width</span><span class="token punctuation">:</span>20px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+//使用动画
+animation-name：move
+animation-duration：1s<span class="token punctuation">;</span> //持续时间
+<span class="token property">animation-timing-function</span><span class="token punctuation">:</span> ease //规定动画的速度曲线
+animation-delay  //规定动画何时开始默认0
+animation-iteration-count //规定动画被播放的次数 默认是1，还有infinite
+animation-direction  // 规定动画是否在下一周期逆向播放，默认是normal，alternate逆向播放
+animation-play-state //规定动画是否正在运行或暂停，默认是running 还有pause
+animation-fill-mode //规定动画结束后的状态。 backwards开始状态 forwards结束状态
+
+简写：
+<span class="token property">animation</span><span class="token punctuation">:</span>动画名词 持续时间 运动曲线 播放次数 是否反方向 动画起始或者结束的状态
+<span class="token property">animation</span><span class="token punctuation">:</span>myfirst 5s linear 2s infinite alternate
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h1 id="移动端-特殊样式"><a href="#移动端-特殊样式" class="header-anchor">#</a> 移动端 特殊样式</h1> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code>// 清除a标签点击的高亮
+1.-webkit-tap-highlight-color：transparent
+//在移动端浏览器默认的外观在iso上加上这个属性才能给按钮和输入框自定义样式
+2.<span class="token property">-webkit-appearance</span><span class="token punctuation">:</span>none
+//禁止长按页面时的弹出菜单
+3. -webkit-touch-callout-none<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h1 id="fixed-布局"><a href="#fixed-布局" class="header-anchor">#</a> fixed 布局</h1> <p>display ：fixed</p> <table><thead><tr><th>属性值（父元素）</th> <th>描述</th></tr></thead> <tbody><tr><td>flex-direction</td> <td>设置主轴的方向</td></tr> <tr><td>justify-content</td> <td>设置主轴上的字元素排列方式</td></tr> <tr><td>flex-wrap</td> <td>设置子元素是否换行 nowrap 不换行 | wrap 换行</td></tr> <tr><td>align-content</td> <td>设置测轴上的子元素的排列方式（多行）</td></tr> <tr><td>align-items</td> <td>设置车轴是上的子元素排列方式（单行）first-start|center|first-end |stretch 拉伸</td></tr> <tr><td>flex-flow</td> <td>复合属性，相当于同时设置了 flex-direction 和 flex-wrap</td></tr></tbody></table> <table><thead><tr><th>flex-direction</th> <th>描述</th></tr></thead> <tbody><tr><td>row</td> <td>默认值从左到右</td></tr> <tr><td>row-reverse</td> <td>从右到左</td></tr> <tr><td>column</td> <td>从上到下</td></tr> <tr><td>column-reverse</td> <td>从下到上</td></tr></tbody></table> <table><thead><tr><th>justify-content</th> <th>描述</th></tr></thead> <tbody><tr><td>flex-start</td> <td>默认值从头部开始</td></tr> <tr><td>flex-end</td> <td>从尾部开始排列</td></tr> <tr><td>center</td> <td>在主轴居中对齐</td></tr> <tr><td>space-around</td> <td>平分剩余空间</td></tr> <tr><td>space-between</td> <td>先两边贴边，再平分剩余空间（重要）</td></tr> <tr><td>space-evenly</td> <td>平分剩余空间包括最外面的</td></tr></tbody></table> <table><thead><tr><th>属性值（子元素）</th> <th>描述</th></tr></thead> <tbody><tr><td>flex</td> <td>分配分数</td></tr> <tr><td>align-self</td> <td>控制某一个元素的对齐方式</td></tr> <tr><td>order</td> <td>定义项目的排列顺序，顺序越小，排例越前 数值越小越靠前</td></tr> <tr><td></td> <td></td></tr> <tr><td></td> <td></td></tr> <tr><td></td> <td></td></tr></tbody></table> <h1 id="渐变"><a href="#渐变" class="header-anchor">#</a> 渐变</h1> <table><thead><tr><th>属性名</th> <th>数值</th> <th>作用</th></tr></thead> <tbody><tr><td>linear-gradient</td> <td>to bottom、to top、to right、to left、to bottom right</td> <td></td></tr> <tr><td>radial-gradlient</td> <td>circle 表示圆形，ellipse 表示椭圆形</td> <td></td></tr> <tr><td></td> <td></td> <td></td></tr></tbody></table> <h1 id="倒影"><a href="#倒影" class="header-anchor">#</a> 倒影</h1> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token property">box-reflect</span><span class="token punctuation">:</span> none |&lt;direction&gt;&lt;offset&gt; ? &lt;mask-box-image&gt;
+<span class="token property">none</span><span class="token punctuation">:</span> 此值为box-reflect默认值，表示无倒影效果
+<span class="token property">direction</span><span class="token punctuation">:</span>此值表示box-reflect生成倒影的方向，主要包括以下几个值
+1. above：表示生成的倒影在对象（原图）的上方；
+2. <span class="token property">below</span><span class="token punctuation">:</span> 表示生成的倒影在对象（原图）的下方
+3. <span class="token property">left</span><span class="token punctuation">:</span> 表示生成的倒影在对象<span class="token punctuation">(</span>原图<span class="token punctuation">)</span>的左侧
+4. <span class="token property">right</span><span class="token punctuation">:</span> 表示生成的倒影在对象<span class="token punctuation">(</span>原图<span class="token punctuation">)</span>的右侧
+
+offset：用来设置生成倒影与对象（原图）之间的间距，其取值可以是固定的像素值，也可以是百分比值，如：
+
+使用长度值来设置生成的倒影与原图之间的间距，只要是CSS中的长度单位都可以，此值可以使用负值；
+
+使用百分比来设置生成的倒影与原图之间的间距，此值也可以使用负值
+
+mask-box-image：用来设置倒影的遮罩效果，可以是背景图片，也可以是渐变生成的背景图像
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">2021-04-07: </span> <span class="time">3/11/2023, 4:49:21 PM</span></div></footer> <!----> <!----></main> <!----> <div class="comments-wrapper" data-v-4698c43e><!----></div></div></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><!----><div></div><!----><div class="reco-bgm-panel" data-v-b1d3339e><audio id="bgm" src="https://music.163.com/song/media/outer/url?id=316756.mp3" data-v-b1d3339e></audio> <div class="reco-float-box" style="bottom:200px;z-index:999999;display:none;" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><img src="https://p2.music.126.net/qOOTIykbSLw9RHB0vI83GA==/737772302281958.jpg" data-v-b1d3339e></div> <div class="reco-bgm-box" style="left:10px;bottom:10px;z-index:999999;" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><div class="reco-bgm-cover" style="background-image:url(https://p2.music.126.net/qOOTIykbSLw9RHB0vI83GA==/737772302281958.jpg);" data-v-b1d3339e><div class="mini-operation" style="display:none;" data-v-b1d3339e><i class="reco-bgm reco-bgm-pause" style="display:none;" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-play" style="display:none;" data-v-b1d3339e></i></div> <div class="falut-message" style="display:none;" data-v-b1d3339e>
+          播放失败
+        </div></div> <div class="reco-bgm-info" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><div class="info-box" data-v-b1d3339e><i class="reco-bgm reco-bgm-music music" data-v-b1d3339e></i>大城小事</div> <div class="info-box" data-v-b1d3339e><i class="reco-bgm reco-bgm-artist" data-v-b1d3339e></i>杨千嬅</div> <div class="reco-bgm-progress" data-v-b1d3339e><div class="progress-bar" data-v-b1d3339e><div class="bar" data-v-b1d3339e></div></div></div> <div class="reco-bgm-operation" data-v-b1d3339e><i class="reco-bgm reco-bgm-last last" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-pause pause" style="display:none;" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-play play" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-next next" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-volume1 volume" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-mute mute" style="display:none;" data-v-b1d3339e></i> <div class="volume-bar" data-v-b1d3339e><div class="bar" data-v-b1d3339e></div></div></div></div> <div class="reco-bgm-left-box" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><i class="reco-bgm reco-bgm-left" data-v-b1d3339e></i></div></div></div><!----></div></div>
+    <script src="/assets/js/app.f7064e2f.js" defer></script><script src="/assets/js/4.bf546a5d.js" defer></script><script src="/assets/js/1.1ea4bb84.js" defer></script><script src="/assets/js/13.4d4e1d89.js" defer></script><script src="/assets/js/10.acd4da03.js" defer></script>
+  </body>
+</html>
